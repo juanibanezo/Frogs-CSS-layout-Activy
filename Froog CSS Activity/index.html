@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes flexboxfroggy</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     <audio id="musica" autoplay loop>
+    <source src="ambientmusic.mp3" type="audio/mpeg">
+  </audio>
+<h1>Apuntes flexbox Froggy🐸</h1>
+<hr>
+    <h2>Actividad</h2>
+    <p>Dentro de el sitio flexbox Froggy🐸 se realizaron juegos para poder entender como organizar layouts en CSS 
+    Aplicación interactiva y muy visual <br> pues nos muestra como funciona cada de una de las mas importantes bases de Style CSS con unos carismaticos sapos :D</p>
+    <br>
+    <p>a continuación veremos los ejemplos de los estilos de la practica aplicados en contenedores.</p>
+    <hr>
+    <h2>EJEMPLOS DE LOS EJERCICIOS APLICADOS</h2>
+    <section>
+<section>
+
+<!-- EJERCICIO 1 -->
+<h3>#ejemplo { <br>
+display: flex; <br>
+justify-content:
+</h3>
+
+<h3>flex-end</h3>
+
+<p>Lleva el objeto al final horizontal del contenedor</p>
+
+<div class="pond" id="pond1">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 11rem; height: 11rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 2 -->
+<h3>center</h3>
+
+<p>Lleva el objeto al centro del contenedor desde lo horizontal</p>
+
+<div class="pond" id="pond2">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 11rem; height: 11rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 3 -->
+<h3>space-around</h3>
+
+<p>Separa dos o más objetos entre sí</p>
+
+<div class="pond" id="pond3">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+     src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 4 -->
+<h3>space-between</h3>
+
+<p>Separa de punta a punta dos o más objetos entre sí</p>
+
+<div class="pond" id="pond4">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+      src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+
+<p>}</p>
+
+<hr>
+
+
+<!-- EJERCICIO 5 -->
+<h3>#ejemplo { <br>
+display: flex; <br>
+align-items:
+</h3>
+
+<h3>flex-end</h3>
+
+<p>Lleva el objeto al final vertical del contenedor</p>
+
+<div class="pond0" id="pond5">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 11rem; height: 11rem; object-fit: cover;">
+
+</div>
+
+<p>}</p>
+
+<hr>
+
+
+<!-- EJERCICIO 6 -->
+<h3>#ejemplo { <br>
+display: flex;
+</h3>
+
+<h3>
+justify-content: center; <br>
+align-items: center;
+</h3>
+
+<p>Lleva el objeto al centro total del contenedor</p>
+
+<div class="pond0" id="pond6">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 11rem; height: 11rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 7 -->
+<h3>
+justify-content: space-around; <br>
+align-items: flex-end;
+</h3>
+
+<p>Separa dos o más objetos y los ajusta en la parte baja vertical del contenedor</p>
+
+<div class="pond0" id="pond7">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+
+<hr>
+
+
+<!-- EJERCICIO 8 -->
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-direction:
+</h3>
+
+<h3>row-reverse</h3>
+
+<p>Invierte el orden horizontal de los elementos dentro del contenedor</p>
+
+<div class="pond0" id="pond8">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 9 -->
+<h3>column</h3>
+
+<p>Ubica los elementos en columnas verticales uno encima del otro</p>
+
+<div class="pond0" id="pond9">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+</div>
+
+<p>}</p>
+
+<hr>
+
+
+<!-- EJERCICIO 10 -->
+<h3>
+#ejemplo { <br>
+display: flex;
+</h3>
+
+<h3>
+flex-direction: row-reverse; <br>
+justify-content: flex-start;
+</h3>
+
+<p>Invierte el orden horizontal y lleva los elementos al inicio</p>
+
+<div class="pond0" id="pond10">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/eb/08/8d/eb088d2fb6bc1c888a7123fb12ee5e17.jpg"
+    alt="hamster2"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-direction: column; <br>
+justify-content: flex-end;
+</h3>
+
+<p>Ubica los elementos en columnas verticales y los lleva al final del contenedor</p>
+
+<div class="pond0" id="pond11">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 12 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-direction: column-reverse; <br>
+justify-content: space-between;
+</h3>
+
+<p>Invierte el orden vertical y separa los elementos de extremo a extremo</p>
+
+<div class="pond0" id="pond12">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 8rem; height: 8rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    alt="hamster3"
+    style="width: 8rem; height: 8rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 13 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-direction: row-reverse; <br>
+justify-content: center; <br>
+align-items: flex-end;
+</h3>
+
+<p>Invierte el orden horizontal, centra los elementos y los lleva abajo</p>
+
+<div class="pond0" id="pond13">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    alt="hamster4"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 14 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex;
+</h3>
+
+<h3>.hamsterChef { <br>
+order: 1;
+</h3>
+
+<p>Cambia el orden del hamsterChef y lo envía al final</p>
+
+<div class="pond0" id="pond14">
+    <img
+     class="hamsterchef"
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    alt="hamster5"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+
+</div>
+
+
+<!-- EJERCICIO 15 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex;
+</h3>
+
+<h3>.hamsterAsco { <br>
+order: -1;
+</h3>
+
+<p>El hamsterAsco pasa al inicio antes de los demás</p>
+
+<div class="pond0" id="pond15">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    alt="hamster4"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    <img
+    class="hamsterasco"
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+    
+    <img
+     class="hamsterchef"
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    alt="hamster5"
+    style="width: 10rem; height: 10rem; object-fit: cover;">
+
+    
+
+</div>
+
+
+<!-- EJERCICIO 16 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+align-items: flex-start;
+</h3>
+
+<h3>.hamstrEmocionado { <br>
+align-self: flex-end;
+</h3>
+
+<p>El hamsterEmocionado baja al final vertical del contenedor</p>
+
+<div class="pond0" id="pond16">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+    <img
+        class="hamster2"
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    alt="hamster3"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 17 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+align-items: flex-start;
+</h3>
+
+<h3>.hamsterChef { <br>
+order: 1; <br>
+align-self: flex-end;
+</h3>
+
+<p>HamsterChef cambia de posición y además baja</p>
+
+<div class="pond0" id="pond17">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+    <img
+     class="hamster2"
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    alt="hamster5"
+    style="width: 9rem; height: 9rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 18 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-wrap: wrap;
+</h3>
+
+<p>Permite que los elementos bajen a otra línea</p>
+
+<div class="pond0" id="pond18">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 19 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-direction: column; <br>
+flex-wrap: wrap;
+</h3>
+
+<p>Organiza elementos en columnas y permite saltos de columna</p>
+
+<div class="pond0" id="pond19">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 20 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-flow: column wrap;
+</h3>
+
+<p>Combina dirección en columnas con ajuste automático</p>
+
+<div class="pond0" id="pond20">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+</div>
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-wrap: wrap; <br>
+align-content: flex-start;
+</h3>
+
+<p>Agrupa las filas al inicio vertical del contenedor</p>
+
+<div class="pond0" id="pond21">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    alt="hamster3"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    alt="hamster4"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 22 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-wrap: wrap; <br>
+align-content: flex-end;
+</h3>
+
+<p>Agrupa las filas en la parte inferior vertical del contenedor</p>
+
+<div class="pond0" id="pond22">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    alt="hamster5"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/d7/b4/29/d7b429fed6e8254d12b76743fbe36339.jpg"
+    alt="hamster4"
+    style="width: 7rem; height: 7rem; object-fit: cover;">
+
+</div>
+
+
+<!-- EJERCICIO 23 -->
+<hr>
+
+<h3>#ejemplo { <br>
+display: flex; <br>
+flex-wrap: wrap; <br>
+flex-direction: column-reverse; <br>
+align-content: center;
+</h3>
+
+<p>Invierte columnas y centra el grupo de elementos</p>
+
+<div class="pond0" id="pond23">
+
+    <img
+    src="https://i.pinimg.com/736x/c4/b5/bf/c4b5bfc07e05dd76d23290e623712e4a.jpg"
+    alt="hamsterPrincipal"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/41/50/12/415012d40de168718f28dba0f59af61a.jpg"
+    alt="hamster3"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+    <img
+    src="https://i.pinimg.com/736x/58/6c/34/586c343e1312865154216596378b4c15.jpg"
+    alt="hamster5"
+    style="width: 6rem; height: 6rem; object-fit: cover;">
+
+</div>
+
+</section>
+<hr>
+<br>
+
+        <h1 class="FIN">FIN</h1>
+        <footer>
+        <p>Gracias por ver esta practica de CSS</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,229 @@
+/*Visuales de la pagina*/
+*{
+        margin: 0.5rem;
+    padding: 0.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+  background-color: #02041a;
+    margin: 0;
+    line-height: 1.6;
+    
+}
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    color: aliceblue;
+}
+h1{
+    display: flex;
+    justify-content:flex-start;
+    color: aliceblue;
+}
+hr{
+  border: none;
+  border-top: 1px solid aliceblue;
+  width: 100%; 
+  margin: 24px 0; 
+}
+/*Contenedores*/
+.pond {
+    background-color: #dde2e7;
+    width: 112rem;
+    height: 15rem;
+    border: 4px solid #a7b4bb;
+    margin-bottom: 30px;
+}
+.pond0 {
+    background-color: #dde2e7;
+    width: 112rem;
+    height: 30rem;
+    border: 4px solid #a7b4bb;
+    margin-bottom: 30px;
+}
+footer {
+  display: flex;
+  justify-content:  center;
+}
+.FIN {
+  display: flex;
+  justify-content: center;
+}
+/*Ejercicios*/
+
+/*Ejercicio 1*/
+#pond1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Ejercicio 2 */
+#pond2 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Ejercicio 3 */
+#pond3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Ejercicio 4 */
+#pond4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Ejercicio 5 */
+#pond5 {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Ejercicio 6 */
+#pond6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ejercicio 7 */
+#pond7 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Ejercicio 8 */
+#pond8 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* Ejercicio 9 */
+#pond9 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ejercicio 10 */
+#pond10 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+/* Ejercicio 11 */
+#pond11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Ejercicio 12 */
+#pond12 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* Ejercicio 13 */
+#pond13 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* Ejercicio 14 */
+#pond14 {
+  display: flex;
+}
+
+#pond14 .hamsterchef {
+  order: 1;
+}
+
+/* Ejercicio 15 */
+#pond15 {
+  display: flex;
+}
+
+#pond15 .hamsterasco {
+  order: 1;
+}
+
+/* Ejercicio 16 */
+#pond16 {
+  display: flex;
+  align-items: flex-start;
+}
+
+#pond16 .hamster2 {
+  align-self: flex-end;
+}
+
+/* Ejercicio 17 */
+#pond17 {
+  display: flex;
+  align-items: flex-start;
+}
+
+#pond17 .hamster2 {
+  order: 1;
+  align-self: flex-end;
+}
+
+/* Ejercicio 18 */
+#pond18 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Ejercicio 19 */
+#pond19 {
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+}
+
+/* Ejercicio 20 */
+#pond20 {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Ejercicio 21 */
+#pond21 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+/* Ejercicio 22 */
+#pond22 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+/* Ejercicio 23 */
+#pond23 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+}
+
+/* Ejercicio 24 */
+#pond24 {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: center;
+  align-content: space-between;
+}
